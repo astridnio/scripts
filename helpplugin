@@ -2,11 +2,11 @@
 /**
  * Plugin Name: help_images_AN
  * Plugin URI: 
- * Description: Dramaticaly reduce image file sizes without losing quality, make your website load faster, boost your SEO and save money on your bandwidth using Imagify, the new most advanced image optimization tool.
+ * Description: Disables the<img> replacement tag
  * Version: 1.0.0
  * Requires PHP: 5.4
  * Author: AN
- * Author URI: 
+ * Author URI: https://github.com/astridnio/scripts
  * Licence: GPLv2
  */
 // check for plugin using plugin name
