@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: addon-imagify-prevent-tags-replacement
- * Plugin URI: 
+ * Plugin URI: https://github.com/astridnio/scripts/blob/master/addon-imagify-prevent-tags-replacement.php
  * Description: Disables the <img> html tag replacement
  * Version: 1.0.0
  * Requires PHP: 5.4
