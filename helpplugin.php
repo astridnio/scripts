@@ -9,6 +9,7 @@
  * Author URI: https://github.com/astridnio/scripts
  * Licence: GPLv2
  */
+defined( 'ABSPATH' ) || die( 'Cheatin’ uh?' );
 public function init() {
     // check for plugin using plugin name
     if ( is_plugin_active( 'plugin-directory/imagify.php' ) ) {
