@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: help_images_AN
- * Plugin URI: 
+ * Plugin URI: https://github.com/astridnio/scripts/blob/master/helpplugin
  * Description: Disables the <img> html tag replacement
  * Version: 1.0.0
  * Requires PHP: 5.4
