@@ -10,7 +10,6 @@
  * Licence: GPLv2
  */
 public function init() {
-
     // check for plugin using plugin name
     if ( is_plugin_active( 'plugin-directory/imagify.php' ) ) {
     //plugin is activated
