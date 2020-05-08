@@ -2,16 +2,29 @@
 /**
  * Plugin Name: help_images_AN
  * Plugin URI: 
- * Description: Disables the<img> replacement tag
+ * Description: Disables the <img> html tag replacement
  * Version: 1.0.0
  * Requires PHP: 5.4
  * Author: AN
  * Author URI: https://github.com/astridnio/scripts
  * Licence: GPLv2
  */
-// check for plugin using plugin name
-if ( is_plugin_active( 'plugin-directory/imagify.php' ) ) {
+public function init() {
+
+    // check for plugin using plugin name
+    if ( is_plugin_active( 'plugin-directory/imagify.php' ) ) {
     //plugin is activated
+        add_action( 'template_redirect', [ $this, 'start_content_process' ], -1000 );
+    }
+}    
+    /**
+	 * Start buffering the page content.
+	 *
+	 * @since  1.9
+	 * @access public
+	 * @author Grégory Viguier
+	 */
+
     public function start_content_process() {
 		if ( ! get_imagify_option( 'display_webp' ) ) {
 			return;
